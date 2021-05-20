@@ -1,5 +1,8 @@
 <template>
   <p class="justify-items-center">Hello</p>
+  <router-link to="/about">About</router-link>
+  <router-link to="/home">Home</router-link>
+   <router-view />
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
